@@ -1,0 +1,289 @@
+/* Base CSS */
+
+@font-face {
+    font-family: 'CodeBold';
+    src: url(../fonts/CODEBold.eot);
+    src: url(../fonts/CODEBold.eot) format('embedded-opentype'), url(../fonts/CODEBold.woff2) format('woff2'), url(../fonts/CODEBold.woff) format('woff'), url(../fonts/CODEBold.ttf) format('truetype'), url(../fonts/CODEBold.svg#CODEBoldregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'CodeLight';
+    src: url(../fonts/CODELight.eot);
+    src: url(../fonts/CODELight.eot) format('embedded-opentype'), url(../fonts/CODELight.woff2) format('woff2'), url(../fonts/CODELight.woff) format('woff'), url(../fonts/CODELight.ttf) format('truetype'), url(../fonts/CODELight.svg#CODELightregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'CodeLight', sans-serif;
+    font-weight: normal;
+    margin: 0 0 15px;
+    color: #333;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.product-bg-1 {
+    background-image: url(../img/product-bg-1.png);
+}
+
+.product-bg-2 {
+    background-image: url(../img/product-bg-2.png);
+}
+.product-bg-3 {
+    background-image: url(../img/product-bg-3.png);
+}
+
+
+.product-bg-4 {
+    background-image: url(../img/product-bg-4.png);
+}
+
+.product-bg-5 {
+    background-image: url(../img/product-bg-5.png);
+}
+
+.product-bg-6 {
+    background-image: url(../img/product-bg-6.png);
+}
+
+.product-bg-7 {
+    background-image: url(../img/product-bg-7.png);
+}
+
+.product-bg-8 {
+    background-image: url(../img/product-bg-8.png);
+}
+
+.product-bg-9 {
+    background-image: url(../img/product-bg-9.png);
+}
+
+.product-bg-10 {
+    background-image: url(../img/product-bg-10.png);
+}
+
+.header-top-area {
+    font-size: 13px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.header-top-area a {
+    color: #5b3f61;
+    display: inline-block;
+    padding: 15px;
+}
+
+.header-left > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-left ul li {
+    display: inline-block;
+}
+
+.header-left a.menu-trigger {
+    display: none;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.search-trigger i.fa {
+    padding-left: 10px;
+}
+
+.home-page-slider-wrap {
+    background-color: #e8d4cb;
+    background-image: url("../img/header-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100%
+}
+
+.single-slide-item {
+    position: relative;
+}
+
+.single-slide-item > img {
+    bottom: 0;
+    left: 50%;
+    margin-left: -300px;
+    position: absolute;
+    width: 600px;
+}
+
+.slide-text-table {
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+
+.slide-text-tablecel {
+  color: #e84f88;
+  display: table-cell;
+  font-family: codelight,sans-serif;
+  font-size: 120px;
+  line-height: 100px;
+  padding-left: 18%;
+  vertical-align: middle;
+}
+
+.slide-text-tablecel strong {
+    color: #e84f88;
+    font-family: CodeBold;
+    font-weight: normal;
+}
+
+ul.big-menu {
+    list-style: outside none none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+ul.big-menu li {
+    background: #ecf3e8 none repeat scroll 0 0;
+    float: left;
+    font-family: CodeLight;
+    font-size: 50px;
+    transition: all 0.2s ease 0s;
+    width: 30%;
+}
+
+ul.big-menu li:hover {
+    opacity: 0.8;
+}
+
+.big-menu > li:nth-child(2) a {
+    color: #e84f88;
+    font-family: CodeBold;
+}
+
+.big-menu li:nth-child(2) {
+    background-color: #f1e5e5;
+}
+
+.big-menu li:nth-child(3) {
+    background-color: #f6f3e6;
+}
+
+.big-menu > li:nth-child(4) {
+    background-color: #ecf4f5;
+}
+
+.big-menu li:nth-child(2),
+.big-menu li:nth-child(3) {
+    width: 20%;
+}
+
+.big-menu li a {
+    color: #5b3f61;
+    display: block;
+    padding: 170px 30px 30px;
+    text-align: right;
+}
+
+.home-page-slider-wrap div {
+    height: 100%;
+}
+
+
+/*
+    **
+    Product css
+    **
+*/
+
+
+.product-area {
+    padding-top: 100px;
+}
+.single-product-item {
+    background-color: #f5eeee;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    float: left;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    width: 20%;
+}
+.product-list {
+    margin-left: -2%;
+    overflow: hidden;
+}
+.single-product-item:nth-child(2) {
+    background-color: #f5eeee;
+    height: 620px;
+    width: 76%;
+}
+.single-product-item:nth-child(3) {
+    background-color: #e7eded;
+}
+.single-product-item:nth-child(4) {
+    width: 54%;
+}
+.single-product-item:nth-child(9) {
+    width: 42%;
+}
+
